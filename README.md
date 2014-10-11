@@ -1,0 +1,4 @@
+editor
+======
+
+editor core library
