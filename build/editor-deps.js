@@ -1,0 +1,1 @@
+modulex.config("requires",{"editor":["util","node","ua","xtemplate/runtime","html-parser","component/control","dom"]});
