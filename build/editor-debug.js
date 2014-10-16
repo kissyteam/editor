@@ -1,3 +1,8 @@
+/*
+Copyright 2014, modulex-editor@1.0.1
+MIT Licensed
+build time: Thu, 16 Oct 2014 08:12:53 GMT
+*/
 modulex.add("editor", ["html-parser","ua","node","util","xtemplate/runtime","component/control","dom"], function(require, exports, module) {
 var htmlParser = require("html-parser");
 var ua = require("ua");
@@ -31,6 +36,7 @@ editor/z-index-manager
 */
 var editorXtplIframe, editorXtplMain, editorHtmlDataProcessor, editorXtplIframeRender, editorXtplMainRender, editorBase, editorUtils, editorFocusManager, editorWalker, editorElementPath, editorEnterKey, editorZIndexManager, editorRange, editorSelection, editorSelectionFix, editorStyles, editorDomIterator, editorClipboard, _editor_, _editorDom_;
 editorXtplIframe = function (exports) {
+  /*compiled by xtemplate#3.3.1*/
   var ret = exports = function iframe(undefined) {
     var t;
     var t0;
@@ -100,6 +106,7 @@ editorXtplIframe = function (exports) {
   return exports;
 }();
 editorXtplMain = function (exports) {
+  /*compiled by xtemplate#3.3.1*/
   var ret = exports = function main(undefined) {
     var t;
     var t0;
@@ -4859,6 +4866,7 @@ _editor_ = function (exports) {
   var selectionFix = editorSelectionFix;
   exports = Editor;
   var TRUE = true, FALSE = false, NULL = null, UA = ua, IS_IE = UA.ieMode < 11, NodeType = $.Dom.NodeType, HEIGHT = 'height', tryThese = Utils.tryThese, IFRAME_TPL = '<iframe' + ' class="{prefixCls}editor-iframe"' + ' frameborder="0" ' + ' title="kissy-editor" ' + ' allowTransparency="true" ' + ' {iframeSrc} ' + '>' + '</iframe>', EMPTY_CONTENT_REG = /^(?:<(p)>)?(?:(?:&nbsp;)|\s|<br[^>]*>)*(?:<\/\1>)?$/i;
+  Editor.version = '1.0.1';
   Editor.Mode = {
     SOURCE_MODE: 0,
     WYSIWYG_MODE: 1

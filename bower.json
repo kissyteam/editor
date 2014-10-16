@@ -14,13 +14,13 @@
         "!index.js"
     ],
     "dependencies": {
-        "modulex": "modulex#master",
-        "modulex-feature": "modulex-feature#master",
-        "modulex-ua": "modulex-ua#master",
-        "modulex-html-parser": "modulex-html-parser#master",
-        "modulex-component": "modulex-component#master"
+        "modulex": "*",
+        "modulex-feature": "modulex-feature#1.x",
+        "modulex-ua": "modulex-ua#1.x",
+        "modulex-html-parser": "modulex-html-parser#1.x",
+        "modulex-component": "modulex-component#1.x"
     },
     "devDependencies": {
-        "modulex-css": "modulex-css#master"
+        "modulex-css": "modulex-css#1.x"
     }
 }
