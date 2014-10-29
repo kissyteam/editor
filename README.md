@@ -1,6 +1,6 @@
 # editor
 
-
+ui editor core
 
 [![editor](https://nodei.co/npm/modulex-editor.png)](https://npmjs.org/package/modulex-editor)
 [![NPM downloads](http://img.shields.io/npm/dm/modulex-editor.svg)](https://npmjs.org/package/modulex-editor)
